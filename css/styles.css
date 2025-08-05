@@ -99,17 +99,8 @@ body {
     font-size: 1.6rem;
     font-weight: 400;
     letter-spacing: -0.5px;
-    /* animation: glow 3s ease-in-out infinite alternate; */
 }
 
-@keyframes glow {
-    from {
-        text-shadow: 0 0 5px rgba(234, 143, 16, 0.3);
-    }
-    to {
-        text-shadow: 0 0 20px rgba(234, 143, 16, 0.6);
-    }
-}
 
 /* Enlaces sociales */
 .navbar-links {
@@ -385,7 +376,7 @@ body {
     justify-content: center;
     opacity: 0;
     transform: translateX(-100px);
-    /* animation: slideInFromLeft 1.2s ease-out 0.5s both; */
+    animation: slideInFromLeft 1.2s ease-out 0.5s both;
 }
 
 @keyframes slideInFromLeft {
@@ -408,7 +399,7 @@ body {
     opacity: 0;
     transform: translateY(30px);
     margin-left: -95px;
-    /* animation: fadeInUp 1s ease-out 1s both; */
+    /* animation: slideInFromLeft 1s ease-out 1s both; */
 }
 
 @keyframes fadeInUp {
@@ -651,7 +642,7 @@ span::after {
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
+    width: 40%;
     height: 100%;
     background-color: var(--quaternary-color);
     z-index: 1;
@@ -1663,7 +1654,7 @@ span::after {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
         margin-top: 1.5rem;
-        padding: 0 20px;
+        padding: 0 10px;
     }
     .number-bg-dark {
         font-size: 120px;

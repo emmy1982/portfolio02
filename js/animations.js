@@ -105,10 +105,10 @@ function initHeroAnimations() {
 function getAnimationName(selector) {
     switch(selector) {
         case '.text-hero':
+        case '.text-hero-1':
             return 'slideInFromLeft';
         case '.image-hero':
             return 'slideInFromRight';
-        case '.text-hero-1':
         case '.text-hero-2':
         case '.links-hero':
         case '.scroll-down':
