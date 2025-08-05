@@ -178,10 +178,6 @@ body {
     width: 40px;
 }
 
-/* Animación de las líneas del hamburger */
-/* Removed breathe animation */
-
-
 
 /* Menú completo */
 .full-menu {
@@ -203,7 +199,7 @@ body {
 }
 
 .menu-content {
-    height: 100%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     padding: 2rem;
@@ -288,7 +284,6 @@ body {
     align-items: center;
     justify-content: center;
     gap: 0.8rem;
-    /* background: linear-gradient(135deg, var(--primary-color), #ff6b35); */
     color: #ffffff;
     text-decoration: none;
     font-size: 1.5rem;
@@ -298,7 +293,6 @@ body {
     padding: 1.2rem 2.5rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
-    /* box-shadow: 0 4px 15px rgba(234, 143, 16, 0.3); */
     border: 2px solid var(--text-color);
     position: relative;
     overflow: hidden;
@@ -317,7 +311,6 @@ body {
 
 .menu-list-download:hover {
     transform: translateY(-3px);
-    /* box-shadow: 0 8px 25px rgba(106, 106, 106, 0.4); */
     border-color: rgba(255, 255, 255, 0.2);
     background-color: var(--text-color);
     color: var(--secondary-color);
@@ -338,10 +331,9 @@ body {
 
 /* Menu Footer */
 .menu-footer {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
-    margin-top: auto;
-    padding-top: 2rem;
+    margin-top:0;
     border-top: 1px solid #333;
 }
 
@@ -490,6 +482,7 @@ span::after {
 }
 
 .links-hero {
+    width: 100%;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -1542,6 +1535,11 @@ span::after {
         font-size: 2rem;
     }
 
+    .menu-nav{
+        height: 400px;
+    }
+
+
     h1 {
         display: flex;
         align-items: flex-start;
@@ -1884,6 +1882,8 @@ html {
 }
 
 /* Efecto de hover para los enlaces del menú */
+
+
 .menu-list a {
     position: relative;
     transition: all 0.3s ease;
