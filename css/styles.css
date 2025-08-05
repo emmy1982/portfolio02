@@ -1690,6 +1690,18 @@ span::after {
     .skills-vertical-line {
         display: none;
     }
+
+    .projects-gallery {
+        padding: 0 20px;
+        margin-bottom: 0;
+    }
+    .project-image {
+        height: 250px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    
 }
 
 /* Animación del botón hamburguesa cuando está activo */
