@@ -60,16 +60,16 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Efecto hover en el botón de menú
-    menuBtn.addEventListener('mouseenter', function() {
-        if (!fullMenu.classList.contains('active')) {
-            this.style.transform = 'scale(1.05)';
-        }
-    });
+    // Efecto hover en el botón de menú - REMOVIDO
+    // menuBtn.addEventListener('mouseenter', function() {
+    //     if (!fullMenu.classList.contains('active')) {
+    //         this.style.transform = 'scale(1.05)';
+    //     }
+    // });
     
-    menuBtn.addEventListener('mouseleave', function() {
-        this.style.transform = 'scale(1)';
-    });
+    // menuBtn.addEventListener('mouseleave', function() {
+    //     this.style.transform = 'scale(1)';
+    // });
     
     // Animación de entrada para los elementos del menú
     function animateMenuItems() {

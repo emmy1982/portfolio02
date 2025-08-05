@@ -1622,6 +1622,10 @@ span::after {
     .about-content {
         padding: 0 2rem;
     }
+
+    .about-bg{
+        height: 20%;
+    }
     
     .about-left {
         padding: 3rem 2rem;
@@ -1652,7 +1656,8 @@ span::after {
     }
     
     .about-profile p {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
+        text-align: start;
     }
     
     /* Skills mobile responsive */
