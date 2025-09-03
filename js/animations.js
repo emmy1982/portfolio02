@@ -25,10 +25,8 @@ function initTypewriterEffect() {
             }
         };
         
-        // Iniciar después de que la pantalla de carga termine
-        document.addEventListener('loadingComplete', () => {
-            setTimeout(typeWriter, 500);
-        });
+        // Iniciar inmediatamente
+        setTimeout(typeWriter, 500);
     }
 }
 
@@ -200,13 +198,11 @@ function initScrollAnimations() {
 document.addEventListener('DOMContentLoaded', function() {
     initTypewriterEffect();
     
-    // Iniciar animaciones del hero después de que la pantalla de carga termine
-    document.addEventListener('loadingComplete', () => {
-        initHeroAnimations();
-        
-        // Iniciar animaciones de scroll después de un pequeño delay
-        setTimeout(() => {
-            initScrollAnimations();
-        }, 2000); // Esperar 2 segundos después de que termine el hero
-    });
+    // Iniciar animaciones del hero inmediatamente
+    initHeroAnimations();
+    
+    // Iniciar animaciones de scroll después de un pequeño delay
+    setTimeout(() => {
+        initScrollAnimations();
+    }, 2000); // Esperar 2 segundos después de que termine el hero
 }); 
