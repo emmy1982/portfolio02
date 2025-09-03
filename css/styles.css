@@ -1418,26 +1418,28 @@ span::after {
     .project-description {
         font-size: 0.8rem;
     }
-}
-
-/* Responsive para proyectos */
-@media (max-width: 1024px) {
-    .projects-gallery {
-        grid-template-columns: repeat(2, 1fr);
+    
+    /* Skills responsive */
+    .skills-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 1.5rem;
-        max-width: 800px;
     }
     
-    .project-image {
-        height: 250px;
+    .skill-item {
+        padding: 1.2rem 0.8rem;
     }
     
-    .project-info h3 {
-        font-size: 1.3rem;
+    .skill-item i {
+        font-size: 2rem;
     }
     
-    .project-description {
-        font-size: 0.8rem;
+    .skill-item span {
+        font-size: 0.9rem;
+    }
+    
+    .skills-vertical-line {
+        height: 50%;
+        margin-left: 1rem;
     }
 }
 
@@ -1479,7 +1481,42 @@ span::after {
     }
     .menu-nav a{
     font-size: 2rem;
-}
+    }
+    
+    /* Skills mobile responsive */
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin-top: 1.5rem;
+        padding: 0 10px;
+    }
+    
+    .skill-item {
+        padding: 1rem 0.5rem;
+    }
+    
+    .skill-item i {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .skill-item span {
+        font-size: 0.75rem;
+    }
+    
+    .skills-vertical-line {
+        display: none;
+    }
+    
+    .skills-header h2 {
+        font-size: 2.5rem;
+    }
+    
+    .number-bg-dark {
+        font-size: 120px;
+        top: -50px;
+        left: 0px;
+    }
 }
 
 
@@ -1660,6 +1697,11 @@ span::after {
         transform: translateY(30px);
         /* animation: fadeInUp 1s ease-out 2s both; */
     }
+
+    a.social-link {
+        font-size: 0.8rem;
+        
+    }
     
     /* About me responsive */
     .section-light {
@@ -1719,26 +1761,6 @@ span::after {
         font-size: 120px;
         top: -50px;
         left: 0px;
-    }
-    .skills-header h2{
-        font-size: 2.5rem;
-    }
-    
-    .skill-item {
-        padding: 1rem 0.5rem;
-    }
-    
-    .skill-item i {
-        font-size: 1.8rem;
-        margin-bottom: 0.5rem;
-    }
-    
-    .skill-item span {
-        font-size: 0.75rem;
-    }
-    
-    .skills-vertical-line {
-        display: none;
     }
 
     .projects-gallery {
