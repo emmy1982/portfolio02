@@ -15,6 +15,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 100px;
 }   
 
 body {
@@ -833,6 +834,7 @@ span::after {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
 }
 .skills-header{
     width: 80%;
@@ -1199,6 +1201,7 @@ span::after {
     position: relative;
     overflow: hidden;
     align-self: flex-start;
+    cursor: pointer;
 }
 
 .footer-button::before {
@@ -1313,6 +1316,7 @@ span::after {
     border: 1px solid #333;
     border-radius: 50%;
     color: #ffffff;
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
