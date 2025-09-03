@@ -3,12 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Emilio Mochón - Desarrollador Web Frontend | Portfolio Profesional</title>
+    <meta name="description" content="Desarrollador web frontend especializado en crear experiencias digitales únicas. Portfolio con proyectos de HTML5, CSS3, JavaScript, PHP y WordPress. Diseño web moderno y responsive." />
+    <meta name="keywords" content="desarrollador web, frontend developer, HTML5, CSS3, JavaScript, PHP, WordPress, diseño web, portfolio, Emilio Mochón" />
+    <meta name="author" content="Emilio Mochón" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="es" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="distribution" content="global" />
+    <meta name="rating" content="general" />
+    
+         <!-- Open Graph / Facebook -->
+     <meta property="og:type" content="website" />
+     <meta property="og:url" content="https://www.codigodigitaldev.com/port/" />
+     <meta property="og:title" content="Emilio Mochón - Desarrollador Web Frontend" />
+     <meta property="og:description" content="Portfolio profesional de Emilio Mochón, desarrollador web frontend especializado en crear experiencias digitales únicas y sitios web modernos." />
+     <meta property="og:image" content="https://www.codigodigitaldev.com/port/assets/image/imagenPerfil.png" />
+     <meta property="og:image:width" content="1200" />
+     <meta property="og:image:height" content="630" />
+     
+     <!-- Twitter -->
+     <meta property="twitter:card" content="summary_large_image" />
+     <meta property="twitter:url" content="https://www.codigodigitaldev.com/port/" />
+     <meta property="twitter:title" content="Emilio Mochón - Desarrollador Web Frontend" />
+     <meta property="twitter:description" content="Portfolio profesional de Emilio Mochón, desarrollador web frontend especializado en crear experiencias digitales únicas." />
+     <meta property="twitter:image" content="https://www.codigodigitaldev.com/port/assets/image/imagenPerfil.png" />
+     
+     <!-- Canonical URL -->
+     <link rel="canonical" href="https://www.codigodigitaldev.com/port/" />
+    
+    <!-- Schema.org structured data -->
+         <script type="application/ld+json">
+     {
+       "@context": "https://schema.org",
+       "@type": "Person",
+       "name": "Emilio Mochón",
+       "jobTitle": "Desarrollador Web Frontend",
+       "description": "Desarrollador web frontend especializado en crear experiencias digitales únicas y sitios web modernos y responsivos.",
+       "url": "https://www.codigodigitaldev.com/port/",
+       "image": "https://www.codigodigitaldev.com/port/assets/image/imagenPerfil.png",
+       "email": "emmyjose82@hotmail.com",
+       "telephone": "+34657437142",
+       "address": {
+         "@type": "PostalAddress",
+         "addressCountry": "ES"
+       },
+       "sameAs": [
+         "https://github.com/emmy1982",
+         "https://es.linkedin.com/in/emilio-moch%C3%B3n-gonz%C3%A1lez-36498a374"
+       ],
+       "knowsAbout": [
+         "HTML5",
+         "CSS3", 
+         "JavaScript",
+         "PHP",
+         "WordPress",
+         "Bootstrap",
+         "Diseño Web",
+         "Desarrollo Frontend"
+       ],
+       "worksFor": {
+         "@type": "Organization",
+         "name": "Freelance"
+       }
+     }
+     </script>
+    
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <title>Portfolio | Emilio Mochón</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/styles.css"></noscript>
+    
+    <!-- Preload fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
@@ -30,6 +106,9 @@
 
   </head>
   <body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+    
     <header id="inicio">
       <!-- Navbar -->
       <nav class="navbar">
@@ -117,7 +196,7 @@
             </div>
           </div>
           <div class="image-hero">
-            <img src="./assets/image/imgHero.png" alt="figura geometrica" />
+            <img src="./assets/image/imgHero.png" alt="Emilio Mochón - Desarrollador Web Frontend - Ilustración geométrica" />
           </div>
         </div>
       </div>
@@ -129,8 +208,8 @@
           <p class="sidebar-down"></p>
         </a>
       </div>
-    </header>
-    <main>
+          </header>
+    <main id="main-content">
       <!-- Sobre mi -->
       <section class="section-light" id="sobre-mi">
         <!-- Fondo de color -->
@@ -160,7 +239,7 @@
           <div class="about-right">
             <img
               src="./assets/image/imagenPerfil.png"
-              alt="Emilio Mochón - Diseñador Web"
+              alt="Emilio Mochón - Desarrollador Web Frontend - Foto de perfil profesional"
             />
           </div>
         </div>
@@ -246,8 +325,8 @@
             <div class="projects-gallery">
               <div class="project-item" >
                 <a href="https://emmy1982.github.io/proyectFinal03/" target="_blank" rel="noopener noreferrer" class="project-link">
-                  <div class="project-image">
-                    <img src="./assets/image/webArquitectura.png" alt="Imagen de la web de arquitectura" height="1200px" width="2500px">
+                                     <div class="project-image">
+                     <img src="./assets/image/webArquitectura.png" alt="Proyecto web empresa de arquitectura y diseño - Emilio Mochón" height="1200px" width="2500px">
                     <div class="project-overlay">
                       <div class="project-info">
                         <h3>Empresa de Arquitectura y Diseño</h3>
@@ -271,8 +350,8 @@
               
               <div class="project-item" >
                 <a href="https://emmy1982.github.io/Lopez/index.html" target="_blank" rel="noopener noreferrer" class="project-link">
-                  <div class="project-image">
-                    <img src="./assets/image/academia.png" alt="Imagen de la web de academia" height="1200px" width="2500px">
+                                     <div class="project-image">
+                     <img src="./assets/image/academia.png" alt="Proyecto web academia de oposiciones - Emilio Mochón" height="1200px" width="2500px">
                     <div class="project-overlay">
                       <div class="project-info">
                         <h3>Academia de Oposiciones</h3>
