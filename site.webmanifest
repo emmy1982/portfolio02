@@ -2,7 +2,7 @@
   "name": "Emilio Mochón - Desarrollador Web Frontend",
   "short_name": "Emilio Mochón",
   "description": "Portfolio profesional de Emilio Mochón, desarrollador web frontend especializado en crear experiencias digitales únicas.",
-  "start_url": "/port/",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#212421",
   "theme_color": "#ea8f10",
