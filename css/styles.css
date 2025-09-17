@@ -938,6 +938,27 @@ span::after {
    filter: contrast(0.6);
 }
 
+.skill-item i.responsive-design{
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 0.8rem;
+    transition: all 0.3s ease;
+}
+
+span.responsive-design{
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+    transition: all 0.3s ease;
+}
+
+.skill-item:hover i.responsive-design{
+    transform: scale(1.1);
+    color: var(--primary-color);
+}
+.skill-item:hover span.responsive-design{
+    color: var(--primary-color);
+}
+
 /* Barra vertical en skills */
 .skills-vertical-line {
     position: absolute;
